@@ -240,7 +240,7 @@ class _MyFormPageState extends State<MyFormPage> {
                                   Center(child: const Text('Informasi Data')),
                                   SizedBox(height: 20),
                                   // TODO: Munculkan informasi yang didapat dari form
-                                  Text('Judul: ' + _namaLengkap),
+                                  Center(child: Text('Nama: ' + _namaLengkap)),
                                   TextButton(
                                     onPressed: () {
                                       Navigator.pop(context);
